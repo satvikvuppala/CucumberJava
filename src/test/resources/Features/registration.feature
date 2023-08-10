@@ -5,6 +5,6 @@ Feature: To test the registration functionality
     And Lufthansa website is opened
     And Registration page is opened
     And Email Id is entered
-    Then Browser closes
+    #Then Browser closes
     
 #When 
