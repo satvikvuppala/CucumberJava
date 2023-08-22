@@ -14,7 +14,7 @@ Feature: feature to test google search functionlaity
     And browser closes
 
     Examples: 
-      | text     | results    |
+      | text     | results	  |
       | linkedin | Job Search |
       | software | Software   |
       | samsung  | Samsung    |
