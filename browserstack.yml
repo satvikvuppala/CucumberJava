@@ -1,0 +1,22 @@
+userName: satvikvuppala_0hYc9a
+accessKey: zSAAcSgfjPRsBKtNEzJe
+
+projectName: CucumberJava
+buildName: Lufthansa
+buildIdentifier: '#${BUILD_NUMBER}'
+
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Edge
+    browserVersion: latest
+
+parallelsPerPlatform: 1
+
+source: java:intellij:v1.1.2
+
+browserstackLocal: true
+
+debug: false
+networkLogs: false
+consoleLogs: errors

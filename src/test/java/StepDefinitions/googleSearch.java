@@ -9,7 +9,7 @@ import io.cucumber.java.en.*;
 
 public class googleSearch {
 
-	WebDriver driver = new ChromeDriver();
+	WebDriver driver;
 	
 	By txt_text = By.name("q");
 //	By txt_results = By.
@@ -17,9 +17,10 @@ public class googleSearch {
 	@Given("browser is open")
 	public void browser_is_open() {
 		
-		System.setProperty("webdriver.chrome.driver",
-				System.getProperty("users.dir")+"[src/main/java/drivers/chromedriver.exe]");
-
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/main/java/drivers/chromedriver.exe");
+		
+		driver = new ChromeDriver();
+		
 		System.out.println("Given is working");
 	}
 

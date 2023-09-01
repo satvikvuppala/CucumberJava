@@ -1,0 +1,33 @@
+16:36:48.496 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.9.1
+16:36:48.503 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:36:48.988 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\browserstack.yml
+16:36:48.988 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of C:\Users\Admin\eclipse-workspace\CucumberJava. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+16:36:48.990 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of C:\Users\Admin\eclipse-workspace\CucumberJava. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+16:36:49.837 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:40:17.083 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.9.1
+16:40:17.091 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:40:17.921 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\browserstack.yml
+16:40:17.921 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of C:\Users\Admin\eclipse-workspace\CucumberJava. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+16:40:17.923 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of C:\Users\Admin\eclipse-workspace\CucumberJava. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+

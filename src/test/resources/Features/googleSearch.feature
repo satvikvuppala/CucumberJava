@@ -1,8 +1,8 @@
 Feature: feature to test google search functionlaity
 
- Background: 
- Given browser is open
- And user is on google search page
+  Background: 
+    Given browser is open
+    And user is on google search page
 
   @outlineSearch
   Scenario Outline: Validate google search is working
@@ -14,7 +14,7 @@ Feature: feature to test google search functionlaity
     And browser closes
 
     Examples: 
-      | text     | results	  |
+      | text     | results    |
       | linkedin | Job Search |
       | software | Software   |
       | samsung  | Samsung    |
@@ -27,8 +27,3 @@ Feature: feature to test google search functionlaity
     And hits enter
     Then user is navigated to search results page
     And browser closes
-
-    
-    Given User open browser 
-    when User clicks on below 
-    
